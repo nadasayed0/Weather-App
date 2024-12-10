@@ -1,0 +1,132 @@
+/********* Start Global /*********/
+
+body {
+  font-family: "Arima", sans-serif;
+}
+
+:root {
+  --color-info: #009ad8;
+}
+
+.myBtn {
+  color: white;
+  background-color: #009ad8;
+  border: unset;
+  padding: 10px 30px;
+  border-radius: 160px;
+  font-size: 12px;
+  font-weight: 500;
+  position: absolute;
+}
+
+.textInfo {
+  color: var(--color-info);
+}
+
+/********* Start Global /*********/
+
+
+
+/********* Start Navbar /*********/
+
+.navbar {
+  background-color: #1e202b;
+  min-height: 120px;
+}
+
+.navbar .navbar-brand h1 {
+  font-weight: 900;
+  color: #fff;
+  font-size: 14px;
+  margin-left: 15px;
+  margin-bottom: 0;
+}
+.navbar .navbar-brand span {
+  font-size: 10px;
+  color: rgb(183, 187, 200);
+  font-weight: 400;
+}
+.navbar .nav-link {
+  border: 2px solid transparent;
+  margin-left: 12px;
+  border-radius: 80px;
+  padding: 5px;
+  color: #fff;
+}
+.navbar .nav-link:is(:hover, .active) {
+  border-color: #009ad8;
+  color: #fff;
+}
+
+/********* Start Navbar /*********/
+
+
+
+/********* Start main section *********/
+
+.forecast {
+  background-color: #1e202b;
+  background-image: url(../images/banner.png);
+  background-repeat: no-repeat;
+  min-height: 80vh;
+}
+.forecast-search input {
+  background-color: #1e202b;
+  color: #fff;
+  padding: 16px 32px;
+  border-radius: 160px;
+  border: unset;
+  font-size: 12px;
+}
+.forecast-search button {
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.forecast .my-card {
+  border: unset;
+  border-radius: unset;
+  background-color: #323544 ;
+  height: 100%;
+  text-align: center;
+}
+.forecast .my-card .degree {
+  font-size: 80px;
+  font-weight: 700;
+}
+
+.forecast .col:nth-child(2) .my-card {
+  background-color: #262936 ;
+
+}
+
+/********* Start main section *********/
+
+
+
+/********* Start footer *********/
+
+footer {
+  background-color: #262936;
+}
+footer .social-icons a {
+  color: #009ad8;
+  background-color: #1e202b;
+  border-radius: 50%;
+  display: inline-block;
+  text-decoration: none;
+  transition: all 0.4s;
+}
+footer .social-icons a:hover {
+  background-color: #009ad8;
+  color: #fff;
+}
+footer .social-icons i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+}
+
+/********* End footer *********/
